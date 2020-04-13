@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+
+    <title>Document</title>
+     
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    
+
+
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Employment Cafe</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">For Employees</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search For Jobs" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search </button>
+      </form>
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+
+
+
+
+
+
+
+
+
+ 
+
+      <section id="home">
+        <!-- <h1>Welcome to Employment cafe</h1> -->
+                <video autoplay loop muted>
+                <source src="img/Busy - 4723 (1).mp4">
+                </video>
+                <!-- <button class="btn">Order Now</button> -->
+               
+             </section>
+    
+     
+    <!-- <section> 
+
+
+        <section>
+            <h1 id="hello">
+               <!-- Welcome To Employment Cafe -->
+            <!-- </h1>
+               <div class="swiper-container">
+                   <div class="swiper-wrapper">
+                       <div class="swiper-slide">
+                           <div class="imgBx">
+                               <img src="img/office-624749_1280.jpg" alt="">
+                           </div>
+                           <div class="details">
+                               <h2 id="H2">employment consultation<br><span></span></h2>
+                         </div>
+                     </div> -->
+                     <!-- <div class="swiper-slide">
+                       <div class="imgBx">
+                           <img src="img/job.jpg" alt="">
+                       </div>
+                       <div class="details">
+                           <h2 id="H21">Find  Job<br><span></span></h2>
+                       </div>
+                   </div>
+           
+                   <div class="swiper-slide">
+                       <div class="imgBx">
+                           <img src="img/emplo.jpg" alt="">
+                       </div>
+                       <div class="details">
+                           <h2 id="H22">Update Ur Cv<br><span></span></h2>
+                       </div>
+                   </div>
+           
+                   <div class="swiper-slide">
+                       <div class="imgBx">
+                           <img src="img/inter.jpg" alt="">
+                       </div>
+                       <div class="details">
+                           <h2 id="H23">For Employers<br><span></span></h2>
+                       </div>
+                   </div>
+                    -->
+                   
+               <!-- </div>
+               <!-- Add Pagination -->
+                <!-- <div class="swiper-pagination"></div> 
+           </div>  --> -->
+           
+             -->
+           
+<!--            
+            <script type="text/javascript" src="swiper.min.js"></script>
+           <script>
+               var swiper = new Swiper('.swiper-container', {
+                   effect: 'coverflow',
+                 grabCursor: true,
+                 centeredSlides: true,
+                 slidesPerView: 'auto',
+                 coverflowEffect: {
+                   rotate: 50,
+                   stretch: 0,
+                   depth: 100,
+                   modifier: 1,
+                   slideShadows : true,
+                 },
+                 pagination: {
+                   el: '.swiper-pagination',
+                 },
+               });
+              </script>
+            </section> -->
+            
+            <section id="best">
+
+              <h1 id="browse">Browse Jobs</h1>
+              
+              <div id="second">
+                <div id="Itsector"  class="images">
+                  <img src="img/images.png" alt="" class="sectors" id="img1">
+                  <h5 id="it">It </h5>
+                  <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+              <div id="ecosector"  class="images">
+                <img src="img/economic.png" alt="" class="sectors" id="img2">
+                <h5 id="it">Eco</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+              <div id="pubsector"  class="images">
+                <img src="img/public.png" alt="" class="sectors" id="img3">
+                <h5 id="it">Public</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+              <div id="agrosector"  class="images">
+                <img src="img/agro.png" alt="" class="sectors" id="img3">
+                <h5 id="it">Agro </h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+
+              <div id="autosector"  class="images">
+                <img src="img/auto.png" alt="" class="sectors" id="img4">
+                <h5 id="it">Automobiles</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+
+
+              <div id="medsector"  class="images">
+                <img src="img/medic.png" alt="" class="sectors" id="img4">
+                <h5 id="it">Health and Med</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+             
+              
+
+
+            </div>
+              
+            </section>
+
+            <section id="best">
+
+             
+              
+              <div id="second">
+                <div id="Itsector"  class="images">
+                  <img src="img/mech.png" alt="" class="sectors" id="img1">
+                  <h5 id="it">Mechanical</h5>
+                  <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+              <div id="ecosector"  class="images">
+                <img src="img/buss.png" alt="" class="sectors" id="img2">
+                <h5 id="it">Bussiness</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+              <div id="pubsector"  class="images">
+                <img src="img/finance.png" alt="" class="sectors" id="img3">
+                <h5 id="it">Finance</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+              <div id="agrosector"  class="images">
+                <img src="img/foreign.png" alt="" class="sectors" id="img3">
+                <h5 id="it">Forgeign</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+              
+
+              <div id="autosector"  class="images">
+                <img src="img/aero.png" alt="" class="sectors" id="img4">
+                <h5 id="it">Aviation</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+
+
+              <div id="medsector"  class="images">
+                <img src="img/rail.png" alt="" class="sectors" id="img4">
+                <h5 id="it">Railway</h5>
+                <button class="btnprimary" id="addBtn">Search</button>
+              </div>
+             
+              
+
+
+            </div>
+              
+            </section>
+
+
+            <h1 id="test">What They Say</h1>
+
+            <div class="carousel" data-controls="none" style="height:200px;width:100%;margin-top: 36px;margin-left: 10px;">
+              <div class="carousel-deck">
+                <div class="carousel-slide">
+                    <img src="img/male.jpg" alt=""  class="images">
+                    <pstyle="color: black;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique non atque rem earum, neque vero. Iure esse deserunt nemo provident asperiores architecto cumque dolorem nulla modi eaque! Possimus, voluptas adipisci. ipsum dolor sit amet consectetur, adipisicing elit. Optio nemo rerum sed rem atque velit?</p>
+                </div>
+                <div class="carousel-slide">
+                      <img src="img/male2.jpg" alt="" class="images">  
+                  
+                  
+                      <pstyle="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae recusandae laborum minima perferendis veritatis, ab placeat pariatur dicta eaque voluptatibus, aliquid nulla commodi vero dolor provident nisi in architecto! ipsum dolor sit amet, consectetur adipisicing elit. Dolore sunt eius ducimus fuga natus eos.</p>                         
+                </div>
+                <div class="carousel-slide">
+                      <img src="img/girl.jpg" alt="" class="images"> 
+                  
+                  
+                      <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique non atque rem earum, neque vero. Iure esse deserunt nemo provident asperiores architecto cumque dolorem nulla modi eaque! Possimus, voluptas adipisci. ipsum dolor sit amet, consectetur adipisicing elit. Dolore sunt eius ducimus fuga natus eos.</p>
+                </div>
+                <!-- <div class="carousel-slide">Slide 4
+
+                </div>
+                <div class="carousel-slide">Slide 5
+
+                </div> -->
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function Carousel(car){
+	// this will be our Carousel object, which will be referred to as carousel
+	var carousel = this;
+
+	// PROPERTIES
+
+	// carousel.element is a jquery object of the car element passed into the Carousel constructor
+	carousel.element = $(car);
+	carousel.currentSlide = 0;
+	carousel.previousSlide = 0;
+	carousel.numberOfSlides = 0;
+	// timer will be the timer object
+	carousel.timer = false;
+	// timerLength is the time between slideshow switches
+	carousel.timerLength = 5000;
+	// timerPause is the time between clicking a button and the slideshow starting again
+	carousel.timerPause = 10000;
+	// timing will stop button clicks if it is true
+	carousel.timing = false;
+
+
+
+	// METHODS
+
+	// .changePosition() is a method for altering the carousel's data
+	// It gets passed true, false, or a number
+	// It makes sure that the slides always stay within available parameters
+	// It calls the .showPosition() method at the end
+	carousel.changePosition = function(direction){
+		// Don't do anything if you're already moving
+		if(carousel.timing) return;
+
+		carousel.previousSlide = carousel.currentSlide;
+		// If moving to the left, decrement currentSlide
+		if(direction === false) {
+			carousel.currentSlide--;
+		} else 
+		// If moving to the right, increment currentSlide
+		if(direction === true) {
+			carousel.currentSlide++;
+		} else 
+		// If direction is a number
+		{
+			if(carousel.currentSlide<direction) {
+				carousel.currentSlide = direction;
+				// return will stop the current function from doing anything else, and switch straight to .showPosition()
+				return carousel.showPosition(true,true);
+			} else if (carousel.currentSlide>direction) {
+				carousel.currentSlide = direction;
+				return carousel.showPosition(false,true);
+			}
+		}
+
+		if(carousel.currentSlide == carousel.previousSlide) return;
+
+		if(carousel.currentSlide < 0){
+			carousel.currentSlide = carousel.numberOfSlides-1;
+		} else if(carousel.currentSlide >= carousel.numberOfSlides){
+			carousel.currentSlide = 0;
+		}
+
+		carousel.showPosition(direction,false);
+	};
+
+	// .showPosition() will 
+	carousel.showPosition = function(direction,placed){
+		// Clear the changeTimer if it's currently running
+		clearTimeout(carousel.changeTimer);
+		carousel.changeTimer = false;
+
+		var leftposition, rightposition;
+		if(carousel.currentSlide == 0){
+			leftposition = carousel.numberOfSlides-1;
+		} else leftposition = carousel.currentSlide-1;
+
+		if(carousel.currentSlide == carousel.numberOfSlides-1){
+			rightposition = 0;
+		} else rightposition = carousel.currentSlide+1;
+
+
+		// Select all the slides, remove any odd classes from them, and then set them back to carousel-slide
+		var cs = carousel.element.find(".carousel-slide")
+			.removeClass("atLeft atRight atCenter moving");
+
+		cs.eq(carousel.previousSlide).addClass("atCenter")
+		if(direction===true){
+			cs.eq(carousel.currentSlide).addClass("atRight");
+			cs.eq(rightposition).addClass("atRight");
+		} else if(direction===false){
+			cs.eq(carousel.currentSlide).addClass("atLeft");
+			cs.eq(leftposition).addClass("atLeft");
+		}
+
+		// Set timing to true so that no button clicks will work while a slide is happening
+		carousel.timing = true;
+
+		// Wait some milliseconds for the computer to render the slides into their starting positions
+		// Then move the correct slides to their new positions
+		carousel.changeTimer = setTimeout(function(){
+			carousel.element.find(".carousel-paginate")
+				.eq(carousel.currentSlide).addClass("active")
+				.siblings().removeClass("active");
+			cs.eq(carousel.currentSlide)
+				.removeClass("atLeft atRight").addClass("moving atCenter");
+			cs.eq(carousel.previousSlide)
+				.removeClass("atLeft atRight atCenter").addClass("moving at"+
+					(direction===true ? "Left" : "Right"));
+
+			// Wait a second and let the button be clicked again
+			setTimeout(function(){carousel.timing = false;},400);
+		// The number here can be adjusted if you have too many glitches
+		},50);
+	};
+
+
+	// Slideshow Methods
+	// .startTimer() starts a repeating interval timer which calls .tick() every timerLength
+	carousel.startTimer = function(){
+		// No slideshow if the timerLength is 0
+		if(carousel.timerLength === 0) return;
+		carousel.timer = setInterval(carousel.tick, carousel.timerLength);
+	};
+	// .stopTimer() clears the interval and resets the timer to false
+	carousel.stopTimer = function(){
+		clearInterval(carousel.timer);
+		carousel.timer = false;
+	};
+	// .pauseTimer() calls the .stopTimer() and then starts a single use timer to call .startTimer() again
+	carousel.pauseTimer = function(){
+		carousel.stopTimer();
+		carousel.timer = setTimeout(carousel.startTimer, carousel.timerPause);
+	};
+	// .tick() will call the .changePosition() function and move to the right
+	carousel.tick = function(){
+		carousel.changePosition(true);
+	};
+
+
+
+	// This function will create a series of buttons to a new div and append that
+	// div to the controls div
+	carousel.makeButtons = function(){
+		// Passing a string of an html tag into jquery returns a new element
+		var button,buttondiv = $("<div class='carousel-pagination'>");
+		// New elements can be appended, prepended, and more to other elements
+		for(var i=0; i<carousel.numberOfSlides; i++) {
+			// Make a new button element
+			btn = $("<button class='carousel-paginate'>").html("&#x25cf;");
+			// If it's the first button, add an active class to it.
+			if(i==0) btn.addClass("active");
+			// Add the button to the buttondiv
+			buttondiv.append(btn);
+		}
+		// Add the buttondiv to the carousel controls
+		carousel.element.append(
+			$("<div class='carousel-controls'>").html(
+				"<div class='carousel-move-left'>&lt;</div>"+
+				"<div class='carousel-move-right'>&gt;</div>"
+				).append(buttondiv)
+			);
+	};
+
+
+
+	carousel.init = function(){
+
+		// If a timer attribute has been given, set the timer values
+		if(carousel.element.data("timer")=="none") {
+			carousel.timerLength = 0;
+		} else if(carousel.element.data("timer")!=undefined) {
+			carousel.timerLength = +carousel.element.data("timer")*1000;
+		}
+		carousel.timerPause = carousel.timerLength*2;
+
+		// Find the number of slides from the html carousel-deck
+		carousel.numberOfSlides = carousel.element.find(".carousel-slide").length;
+		// Show the first slide
+		carousel.element.find(".carousel-slide").eq(0).addClass("atCenter");
+
+		// Create all the buttons
+		carousel.makeButtons();
+		// Start the slideshow
+		carousel.startTimer();
+	};
+
+
+
+
+
+	// EVENT HANDLERS
+	carousel.element.on("click",".carousel-move-left",function(){
+		carousel.changePosition(false);
+		carousel.pauseTimer();
+	});
+	carousel.element.on("click",".carousel-move-right",function(){
+		carousel.changePosition(true);
+		carousel.pauseTimer();
+	});
+	carousel.element.on("click",".carousel-paginate",function(){
+		carousel.changePosition($(this).index());
+		carousel.pauseTimer();
+	});
+
+
+
+	// Call a function called .init() to start anything that needs to be started
+	carousel.init();
+}
+
+$(function(){ // document ready
+	// Find all the .carousel elements and assign them to a Carousel Object
+	$(".carousel").each(function(){
+		new Carousel(this);
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+          <!-- <div id="Itsector">
+            <img src="img/images.png" alt="" class="sectors" id="img1">
+            <h5 id="it">It sectors</h5>
+            <button class="btnprimary" id="addBtn">It Sector</button>
+          </div> -->
+
+
+
+      <!-- <section id="about">
+   
+<h1 id="aboutus">About Us</h1>
+    
+    <img src="img/emplo.jpg" alt="" >
+
+<p id="we"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod, animi doloribus officiis numquam illo ipsa culpa saepe error veniam aspernatur, quasi temporibus facilis vitae nemo voluptas ullam sit sapiente. ipsum dolor sit, amet consectetur adipisicing elit. Eveniet corrupti sed, doloribus fugit laudantium itaque magni? Velit voluptas perferendis doloribus. ipsum dolor sit amet consectetur adipisicing elit. .
+
+</jobs> </p> 
+
+</section> -->
+
+
+<!-- tetstimonial section begins here
+<!-- tetstimonial section begins here -->
+
+ <!-- <section id="testimonial">
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-md-12">
+         <h2 class="text-centre title text dark"><strong>Testimonials</strong></h2>
+
+<!-- carousel begins -->
+<!-- <div class="carousel slide" id="my-carousel" data-ride="carousel">
+<ol class="carousel-indicators">
+  <li data-target="#my-carousel" data-slide-to="0"></li>
+  <li data-target="#my-carousel" data-slide-to="1" class="active"></li>
+  <li data-target="#my-carousel" data-slide-to="2"></li>
+
+</ol>
+
+<div class="carousel-inner"> --> 
+
+
+
+
+
+
+
+  <!-- slide1 -->
+  <!-- <div class="carousel-item text-centre">
+    <div class="img-box  border rounded circle m-auto">
+      <img src="img/male.jpg" class="d-block w-100 rounded-circle" alt="">
+      
+    </div>
+    <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Paul mitchel</strong></h5>
+    <h6 class="text-dark m-1">Web developer</h6>
+    <p class="pt-3 text-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam vitae cum doloremque? Aut explicabo totam exercitationem, ratione adipisci quis eius.</p>
+  </div>
+  <!-- slide2 -->
+  <!-- <div class="carousel-item text-centre active">
+    <div class="carousel-item text-centre">
+      <div class="img-box  border rounded circle m-auto">
+        <img src="img/male2.jpg" class="d-block w-100 rounded-circle" alt="">
+        
+      </div>
+      <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">daniel staton</strong></h5>
+      <h6 class="text-dark m-1">CEO</h6>
+      <p class="pt-3 text-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam vitae cum doloremque? Aut explicabo totam exercitationem, ratione adipisci quis eius.</p>
+    </div> -->
+  
+  
+    <!-- slide3 -->  
+    <!-- <div class="carousel-item text-centre">
+      <div class="carousel-item text-centre">
+        <div class="img-box  border rounded circle m-auto">
+          <img src="img/girl.jpg" class="d-block w-100 rounded-circle" alt="">
+          
+        </div>
+        <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Margot Robbie</strong></h5>
+        <h6 class="text-dark m-1">SEO Analyst</h6>
+        <p class="pt-3 text-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam vitae cum doloremque? Aut explicabo totam exercitationem, ratione adipisci quis eius.</p>
+      </div>
+</div> -->
+
+<!-- carousel controls
+<a href="#my-carousel" class="carousel-control-prev" role="button"
+data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a href="#my-carousel" class="carousel-control-next" role="button"
+data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">next</span>
+</a>
+
+
+
+
+
+
+
+</div> -->
+
+<!-- carousel ends -->
+ 
+ <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/male.jpg" class="d-block " alt="..." id="img11">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text1">First slide label</h5>
+        <p class="text2">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/male2.jpg" class="d-block " alt="..." id="img12">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text1">Second slide label</h5>
+        <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/girl.jpg" class="d-block " alt="..." id="img13">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text1">Third slide label</h5>
+        <p class="text2">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+       </div>
+     </div>
+   </div>
+ </section> -->
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
